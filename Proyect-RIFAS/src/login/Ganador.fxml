@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="470.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.GanadorController">
+   <children>
+      <Label fx:id="txt_11" layoutX="80.0" layoutY="50.0" text="Ganador de la rifa" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="men_rifass" layoutX="135.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="RIFAS DISPONIBLES">
+        <items>
+          <!-- Los items de este menú se cargarán dinámicamente desde el controlador -->
+        </items>
+      </MenuButton>
+      <Button fx:id="ganador" layoutX="175.0" layoutY="250.0" mnemonicParsing="false" onAction="#obtenerGanador" prefHeight="30.0" prefWidth="120.0" text="Elegir Ganador" />
+      <Label fx:id="TXT_NOMBRE" layoutX="80.0" layoutY="320.0" prefHeight="30.0" prefWidth="310.0" text="" textFill="WHITE" />
+      <Label fx:id="TXT_NUMERO" layoutX="80.0" layoutY="360.0" prefHeight="30.0" prefWidth="310.0" text="" textFill="WHITE" />
+      <Button fx:id="BT_atrass" layoutX="7.0" layoutY="14.0" mnemonicParsing="false" onAction="#irAMenu" text="ATRAS" />
+   </children>
+</AnchorPane>

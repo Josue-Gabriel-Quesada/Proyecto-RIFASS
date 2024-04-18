@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane fx:id="contenedorPadre" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLDocumentController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="raiz" prefHeight="603.0" prefWidth="530.0" style="-fx-background-color: #000000;">
+          <children>
+            <ImageView fitHeight="751.0" fitWidth="470.0" layoutY="60.0" opacity="0.53" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imag/R%20(1).jpeg" />
+               </image>
+            </ImageView>
+              <Button fx:id="button" layoutX="181.0" layoutY="417.0" onAction="#link" prefHeight="21.0" prefWidth="109.0" style="-fx-background-color: #000000;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Century" size="24.0" />
+               </font></Button>
+              <Label fx:id="label" layoutX="216.0" layoutY="60.0" minHeight="16" minWidth="38.0" prefHeight="39.0" prefWidth="59.0" text="RIFAS" textFill="#757575">
+               <font>
+                  <Font name="Century" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_user" layoutX="142.0" layoutY="220.0" />
+            <PasswordField fx:id="tf_contra" layoutX="152.0" layoutY="328.0" />
+            <Label layoutX="142.0" layoutY="188.0" prefHeight="17.0" prefWidth="149.0" text="User" textFill="WHITE" />
+            <Label layoutX="152.0" layoutY="293.0" prefHeight="17.0" prefWidth="149.0" text="Password" textFill="WHITE" />
+            <Label layoutX="182.0" minHeight="16" minWidth="38.0" prefHeight="57.0" prefWidth="157.0" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="48.0" />
+               </font>
+            </Label>
+          </children>
+      </AnchorPane>
+   </children>
+</StackPane>

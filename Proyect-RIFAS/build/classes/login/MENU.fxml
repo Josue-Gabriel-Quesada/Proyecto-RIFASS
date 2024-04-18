@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="749.0" prefWidth="470.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.MENUController">
+    <children>
+        <Button fx:id="bt_crear" layoutX="89.0" layoutY="170.0" mnemonicParsing="false" onAction="#abrirRifas" prefHeight="31.0" prefWidth="292.0" style="-fx-background-color: #98FB98;" text="CREAR RIFA" />
+        <Button fx:id="bt_comprar" layoutX="89.0" layoutY="224.0" mnemonicParsing="false" onAction="#abrirComprar" prefHeight="31.0" prefWidth="292.0" style="-fx-background-color: #FFFACD;" text="COMPRAR NUMEROS" />
+        <Button fx:id="bt_eliminar" layoutX="89.0" layoutY="393.0" mnemonicParsing="false" onAction="#abrirEliminar" prefHeight="31.0" prefWidth="292.0" style="-fx-background-color: #FF0000;" text="ELIMINAR RIFA" />
+        <Button fx:id="bt_salir" layoutX="142.0" layoutY="487.0" mnemonicParsing="false" onAction="#accionSalir" prefHeight="16.0" prefWidth="186.0" style="-fx-background-color: #FF0000;" text="SALIR" />
+        <Button fx:id="bt_editar" layoutX="89.0" layoutY="282.0" mnemonicParsing="false" onAction="#abrirEditar" prefHeight="31.0" prefWidth="292.0" style="-fx-background-color: #F4A460;" text="EDITAR RIFA" />
+        <Button fx:id="bt_ganador" layoutX="89.0" layoutY="336.0" mnemonicParsing="false" onAction="#abrirGanador" prefHeight="31.0" prefWidth="292.0" style="-fx-background-color: #FFFF00;" text="GANADOR" />
+        <Label fx:id="txt1" layoutX="182.0" layoutY="61.0" text="MENU" textFill="WHITE">
+            <font>
+                <Font name="Impact" size="48.0" />
+            </font>
+        </Label>
+        <Label fx:id="txt2" layoutX="215.0" layoutY="113.0" text="RIFAS" textFill="#978a8a">
+            <font>
+                <Font name="Century" size="13.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>

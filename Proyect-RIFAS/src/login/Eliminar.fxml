@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="471.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.EliminarController">
+   <children>
+      <Label fx:id="txt11111" layoutX="95.0" layoutY="94.0" text="ELIMINAR RIFAS" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt_atrassss" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="95.0" text="ATRAS" onAction="#irAMenu" />
+      <MenuButton fx:id="men_rifaaa" layoutX="197.0" layoutY="186.0" mnemonicParsing="false" text="RIFAS" />
+      <Button fx:id="bt_eliminarrr" layoutX="132.0" layoutY="558.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="215.0" style="-fx-background-color: #FF0000;" text="ELIMINAR" onAction="#eliminarRifa" />
+   </children>
+</AnchorPane>
